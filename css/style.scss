@@ -1,0 +1,75 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+.main{
+    background: linear-gradient(to right top, rgb(14, 165, 170), rgb(32, 196, 119));
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+     height: auto;
+     top: 0;
+    left: 0;
+}
+.fixpos{
+    position: fixed;
+}
+
+.error-box{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    background: linear-gradient(
+        to left top,
+        rgba(245, 7, 7, 0.5),
+        rgba(255, 0, 0, 0.7)
+
+    );
+    border-radius: 1rem;
+}
+
+.color{
+    background: white;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3)
+
+    );
+    border-radius: 2rem;
+}
+
+.morecolor{
+
+    background: linear-gradient(
+        to left top,
+        rgba(255,255,255,1),
+        rgba(255,255,255,0.8)
+
+    );
+    border-radius: 1rem;
+    box-shadow: 6px 6px 10px rgba(122,122,122, 1);
+}
+
+.completed{
+    
+    background: linear-gradient(
+        to left top,
+        rgba(25, 63, 15, 0.6),
+        rgba(46, 124, 39, 0.4)
+
+    );
+    border-radius: 1rem;
+}
